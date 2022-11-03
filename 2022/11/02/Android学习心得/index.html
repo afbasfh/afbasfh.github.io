@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Android学习心得 | candy的博客</title><meta name="author" content="candy"><meta name="copyright" content="candy"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="在上大学前，从来没有想过自己会走到写程序这条路上，因为自己对于电脑的一些基本操作都不太熟悉，也对于计算机没有什么兴趣，所以起初对于自己是否能学明白写程序还是很怀疑，大一上学期只是简单学了c语言，感觉还可以，至少能理解，而且还能自己写出一些程序，慢慢的产生了兴趣，在一次讲座上认识了东哥，听东哥讲了一下我们这个专业的一些前景以及他的一些建议，东哥也是在写程序方面很有建树的了，他的建议也就是学的越多越有">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android学习心得">
+<meta property="og:url" content="http://example.com/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/index.html">
+<meta property="og:site_name" content="candy的博客">
+<meta property="og:description" content="在上大学前，从来没有想过自己会走到写程序这条路上，因为自己对于电脑的一些基本操作都不太熟悉，也对于计算机没有什么兴趣，所以起初对于自己是否能学明白写程序还是很怀疑，大一上学期只是简单学了c语言，感觉还可以，至少能理解，而且还能自己写出一些程序，慢慢的产生了兴趣，在一次讲座上认识了东哥，听东哥讲了一下我们这个专业的一些前景以及他的一些建议，东哥也是在写程序方面很有建树的了，他的建议也就是学的越多越有">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/111.jpg">
+<meta property="article:published_time" content="2022-11-02T08:46:51.000Z">
+<meta property="article:modified_time" content="2022-11-02T08:52:07.109Z">
+<meta property="article:author" content="candy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/111.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Android学习心得',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-11-02 16:52:07'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/111.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">candy的博客</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Android学习心得</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-02T08:46:51.000Z" title="发表于 2022-11-02 16:46:51">2022-11-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-02T08:52:07.109Z" title="更新于 2022-11-02 16:52:07">2022-11-02</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Android学习心得"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>在上大学前，从来没有想过自己会走到写程序这条路上，因为自己对于电脑的一些基本操作都不太熟悉，也对于计算机没有什么兴趣，所以起初对于自己是否能学明白写程序还是很怀疑，大一上学期只是简单学了c语言，感觉还可以，至少能理解，而且还能自己写出一些程序，慢慢的产生了兴趣，在一次讲座上认识了东哥，听东哥讲了一下我们这个专业的一些前景以及他的一些建议，东哥也是在写程序方面很有建树的了，他的建议也就是学的越多越有好处，他当时讲了两个大的方向，一个是前端开发，另一个是Android开发，当时他是带着我们写了一个小的开放demo，深深的引起了我的兴趣，感觉开发还是挺好玩的，而且还很有帮助，所以便决定跟着东哥学开发，希望自己能学明白，不仅是一个技能，也能作为一个兴趣爱好，也期待能通过学习开发来让提升自己。</p>
+<p>   这一段时间也是一直在学习Android，对于这段时间的学习，如果让我给自己打分，我能给自己打60分，因为学习这个没有说是像学别的比如思修呀之类的那样摆烂，至少是认真去学了，可能因为自己在写程序这方面真正算是一个初学者，从玩不明白电脑开始，理解上可能没有高中学习理化生那么快，但这应该是刚开始是这样，我相信会越来越好，只要自己能坚持下来。这一段时间的Android学习，主要是一些基础知识的储备，从最开始对kotlin的学习，到现在慢慢写一些小的demo，刚开始学习kotlin的那段时间是比较枯燥无味的，因为对于这种纯知识点的学习我一向是学习效率比较低，不过总归是还有所收获，毕竟学习这些是为了后面demo的实现。</p>
+<p>   学习了这些kotlin之时之后，便正式 开始了Android的学习，起初也是很基础的一些控件，比如View，Button，layout这种比较基础且常用的，我自己很能感觉到自己的状态要比刚开始学习kotlin要好很多，对于这些新的点的理解会更深入，更透一点，慢慢的开始学一些比较难一点的，想viewbinding，databinding，animation一些比较难理解一些的，但我还是可以慢慢接受，可能就是自己慢慢上道了吧。</p>
+<p>  因为为了学习开发是牺牲自己暑假的情况下学习的，本来会以为会很枯燥，每天都是学了睡，睡了起来继续学，但事实上并不是这样，东哥带给了我们很多乐趣，首先他的讲课不是那种只将知识的那种，他是会很有意思的通过一些生活中的例子来加深我们的理解，他还给我们买一些零食之类的，让我们在休息的时间缓解压力，最重要的是每天晚上他都会跟我们一起运动，比如打打羽毛球，乒乓球，篮球，东哥也是样样精通，虽然有时候我们很菜，但是他也不会说一些什么，只会鼓励我们继续练，就跟学习开发一样慢慢提升，东哥让我们本来乏味的学习变得有趣起来。</p>
+<p>   这段时间跟着东哥也是写了不少小的demo，像是计算机，美团登录界面，画画板这些，每次在写之前都是会感觉这些项目比较神秘，会比较复杂，但其实并不然，在一次次跟着东哥揭开它们的面纱，实现它们一个个小功能之后，都会有一种成就感，这些我们平时常用的app的实现自己竟然都可以实现个大概，不仅很开心，也能感觉到自己正在一步步的进步，会更有动力，东哥还给我们提了一个很有帮助的建议，就是录视频，每完成一个demo自己回宿舍就自己再敲一遍，并录下来，一开始我感觉是没什么用处的，直到录过一两次之后，在体会到录视频对自己的好处，录视频不仅会让你重新敲一遍，最重要的是重新思考一遍，在重新敲的过程中，会出现很多问题，这些问题都将会使自己进步，会让自己对于这些项目的理解更深刻。</p>
+<p>  跟东哥学习和跟学校的学习是不同的，首先就是教学方式上的不同，学校里面的老师讲课都是面向整个班级的，不太会在意你是不是真正掌握，而东哥的学习是面向每一个人的，他会在乎我们每一个是否真正掌握，真正理解：其次最大的不同就是在于师生关系，，学校里的老师跟我们基本都是纯粹的老师与学校的关系，而我们跟着东哥，更多的是朋友兄弟的关系，从一声一声的东哥就可以感觉到，这种关系会让我们在学习的过程中更加轻松，学的会更好。</p>
+<p>   如果说我起初是抱着试一试的想法来跟着东哥学习，那么我现在的想法就是跟着东哥学习然后找到一个好的offer，这一段时间的学习，让我对自己有了信心，对于自己的未来也开始有了憧憬，虽然自己现在以及是一个小白，需要学的东西还很多，但是通过这一段时间的学习我相信只要自己能坚持下去，就不会差，也希望自己能够继续坚持，未来并不遥远，行则将至</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">candy</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/">http://example.com/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">candy的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/111.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/11/02/hello-world/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">candy</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/" title="Android学习心得"><img src="/img/111.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Android学习心得"/></a><div class="content"><a class="title" href="/2022/11/02/Android%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/" title="Android学习心得">Android学习心得</a><time datetime="2022-11-02T08:46:51.000Z" title="发表于 2022-11-02 16:46:51">2022-11-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/02/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/11/02/hello-world/" title="Hello World">Hello World</a><time datetime="2022-11-02T08:24:41.107Z" title="发表于 2022-11-02 16:24:41">2022-11-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By candy</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
